@@ -3,7 +3,7 @@ var sass = require("gulp-sass");
 var autoprefixer = require("gulp-autoprefixer");
 var ejs = require("gulp-ejs");
 
-// 監視　※gulp4の書き方です。
+// 監視　※gulp4の書き方
 gulp.task( "default", function () {
   gulp.watch( "sass/**/*.scss", gulp.series( "sass" ) ); // sassディレクトリ以下の.scssファイルの更新を監視
   gulp.watch( "ejs/**/*.ejs", gulp.series( "ejs" ) ); // ejsディレクトリ以下の.ejsファイルの更新を監視
