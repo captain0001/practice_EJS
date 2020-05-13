@@ -19,6 +19,11 @@
   "homepage": "https://github.com/captain0001/study_EJS#readme",
   "devDependencies": {
     "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-ejs": "^5.1.0",
     "gulp-sass": "^4.1.0"
+  },
+  "dependencies": {
+    "ejs": "^3.1.2"
   }
 }
